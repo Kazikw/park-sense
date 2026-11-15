@@ -67,3 +67,14 @@ Czysta architektura: *Thin Controllers*, wstrzykiwanie zależności przez konstr
    npm run dev
    ```
 4. Otwórz aplikację w przeglądarce pod adresem: http://localhost:5173
+
+##  Wsparcie narzędziami AI
+Przy pracy nad tym kodem wspierałem się AI (LLM / IDE z asystentem). 
+- Skonfigurowałem dedykowany zestaw ścisłych reguł w pliku `AGENTS.md` (załączonym w repozytorium), co wymusiło na AI stosowanie spójnego ze mną stylu kodowania (*Clean Code*, anglojęzyczne nazewnictwo zmiennych, polskojęzyczne komunikaty dla użytkownika, struktura rekordów DTO).
+- AI pomogło mi wygenerować boilerplate dla Spring Boota oraz ostylować komponenty Reacta w Tailwind CSS.
+- Wykorzystałem agenta jako narzędzie audytowe przed commitem (skanowanie kodu w poszukiwaniu ukrytych śmieci debugowych i wycieków zmiennych środowiskowych – tzw. *security check* w trybie read-only).
+
+## 🎥 Demo aplikacji
+Odtwarzacz GitHuba ma problemy z buforowaniem większych plików wideo. Aby ułatwić przegląd zadania, nagranie prezentujące działanie aplikacji na żywo umieściłem także na youtube:
+https://youtu.be/oF6UDVN2DSs
+
